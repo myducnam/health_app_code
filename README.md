@@ -7,7 +7,6 @@
 ## Libraries
 ### Common
 - [Laravel enum](https://github.com/BenSampo/laravel-enum)
-- [Eloquent insert on duplicate key](https://github.com/guidocella/eloquent-insert-on-duplicate-key)
 - [Eloquent Filter](https://github.com/Tucker-Eric/EloquentFilter)
 - [Column sorting for Laravel](https://github.com/Kyslik/column-sortable)
 ### Development
