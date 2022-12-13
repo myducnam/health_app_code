@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "f2f858d6-e281-44c4-a890-d90f95026210",
+		"name": "HelthApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13594687"
+	},
+	"item": [
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "History",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Rate",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
