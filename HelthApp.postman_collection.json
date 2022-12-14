@@ -10,7 +10,41 @@
 			"name": "Search",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer N3id87BS",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demo-services.local:14080/api/body/search?user_id=1&registered_yearmonth_from =2022-10&registered_yearmonth_to =2022-12",
+					"protocol": "https",
+					"host": [
+						"demo-services",
+						"local"
+					],
+					"port": "14080",
+					"path": [
+						"api",
+						"body",
+						"search"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						},
+						{
+							"key": "registered_yearmonth_from ",
+							"value": "2022-10"
+						},
+						{
+							"key": "registered_yearmonth_to ",
+							"value": "2022-12"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -18,7 +52,33 @@
 			"name": "History",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer N3id87BS",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demo-services.local:14080/api/mealhistory/get?user_id=1",
+					"protocol": "https",
+					"host": [
+						"demo-services",
+						"local"
+					],
+					"port": "14080",
+					"path": [
+						"api",
+						"mealhistory",
+						"get"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -26,7 +86,37 @@
 			"name": "Rate",
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer N3id87BS",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://demo-services.local:14080/api/body/get_achivement_rate?user_id=1&registered_date=2022-12-10",
+					"protocol": "https",
+					"host": [
+						"demo-services",
+						"local"
+					],
+					"port": "14080",
+					"path": [
+						"api",
+						"body",
+						"get_achivement_rate"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1"
+						},
+						{
+							"key": "registered_date",
+							"value": "2022-12-10"
+						}
+					]
+				}
 			},
 			"response": []
 		}
